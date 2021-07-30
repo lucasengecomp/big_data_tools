@@ -3,7 +3,10 @@
 
 Ambiente para estudo dos principais frameworks big data em docker.
 <br> Esse setup vai criar dockers com os frameworks HDFS, HBase, Hive, Presto, Spark, Jupyter, Hue, Mongodb, Metabase, Nifi, kafka, Mysql e Zookeeper com a seguinte arquitetura:
-<br>  
+<br> 
+
+<br> Material obtido no github  https://github.com/thiagoabb/bigdata_docker. Foi feito clone desse repostório como referência.
+<br>
 
 ![Ecossistema](ecosystem.jpeg)
 
@@ -29,7 +32,7 @@ Ambiente para estudo dos principais frameworks big data em docker.
         ex: /home/user/docker
 
 #### Em um terminal/DOS, dentro diretório docker, realizar o clone do projeto no github
-          git clone https://github.com/thiagoabb/bigdata_docker
+          git clone https://github.com/lucasengecomp/big_data_tools
 
 #### No diretório bigdata_docker vai existir os seguintes objetos
 ![ls](ls.JPG)
