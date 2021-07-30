@@ -126,6 +126,10 @@ Ambiente para estudo dos principais frameworks big data em docker.
    ##### Kafka
 
           docker exec -it kafka bash
+        
+   ##### ScyllaDB
+
+          docker exec -ti scylla-1 cqlsh
 
 ## Acesso JDBC
 
@@ -139,6 +143,7 @@ Ambiente para estudo dos principais frameworks big data em docker.
    ##### Presto
 
           jdbc:presto://presto:8080/hive/default
+
 
 ## Usuários e senhas
 
@@ -159,6 +164,7 @@ Ambiente para estudo dos principais frameworks big data em docker.
     Senha: root
     Authentication Database: admin
 
+   
 ## Imagens   
 
 [Docker Hub](https://hub.docker.com/u/fjardim)
@@ -180,3 +186,4 @@ Ambiente para estudo dos principais frameworks big data em docker.
 * https://gethue.com/
 * https://github.com/yahoo/CMAK
 * https://www.docker.com/
+* https://www.scylladb.com/
